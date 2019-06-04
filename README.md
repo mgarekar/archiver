@@ -11,13 +11,13 @@ usage: archiver [-h] [--output OUTPUT] [--debug] input
 Creates archive at input path. (Optionally)Specify output path to create
 data.tar at output path.
 Usage: 
-python3 archiver.py /Users/garmanav/temp/
-python3 archiver.py /Users/garmanav/temp/ /Users/garmanav/temp2/ 
-python3 archiver.py /Users/garmanav/temp/ /Users/garmanav/temp2/ --debug
+python3 archiver.py /Users/mgarek/temp/
+python3 archiver.py /Users/mgarek/temp/ /Users/mgarek/temp2/ 
+python3 archiver.py /Users/mgarek/temp/ /Users/mgarek/temp2/ --debug
 
 positional arguments:
   input            Create Tar at input path location.
-                   Default=/Users/garmanav/temp/
+                   Default=/Users/mgarek/temp/
 
 optional arguments:
   -h, --help       show this help message and exit
